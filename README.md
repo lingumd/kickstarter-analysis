@@ -1,7 +1,9 @@
 # An Analysis of Kickstarter Campaigns
 Performing analysis on Kickstarter data to uncover trends.
+#### [Kickstarter Analysis](./Kickstarter%20Analysis.xlsx)
 
 # Kickstarting with Excel
+#### [Kickstarter_Challenge](./Kickstarter_Challenge.xlsx)
 
 ## Overview of Project
 Louise wants to know how different campaigns did in relation to their launch dates and funding goals.
@@ -18,12 +20,14 @@ Write an analysis of the results.
 Create outcomes based on goals chart and outcomes based on launch date chart and write a written report on them.
 
 ### Analysis of Outcomes Based on Launch Date
-The number of successful outcomes increases much more in May and decreases much more in December and the winter months.
+![Outcomes Based on Launch Date](./Theater_Outcomes_vs_Launch.png)
+The number of successful outcomes increases much more in May, stays and decreases much more in December and the winter months.
 The number of canceled outcomes stays the same throughout the year.
 The number of failed outcomes increases during the summer months. 
 Both failed and successful outcomes increase in October.
 
 ### Analysis of Outcomes Based on Goals
+![Outcomes Based on Goals](./Outcomes_vs_Goals.png)
 The percent of successful play campaigns are above 50% when the goal is $14,999 or less.
 The percent of successful play campaigns are above 70% when the goal is $4,999 or less.
 The percent of successful play campaigns are at 67% when the goal is between $35,000 and $44,999.
@@ -38,13 +42,16 @@ The COUNTIFS() function.
 
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
 In order to have best chance at a successful theater campaign, 
-it would be best to launch the campaign in May or June. 
+it would be best to launch the campaign in May, June, or July. 
 It would also be best to avoid launching the campaign in the winter months,
 especially October when the amount of failed campaigns increase.
 
 ### What can you conclude about the Outcomes based on Goals?
 In order to have the best chance at a successful play campaign,
 it would be best to have the goal be set at either less then $4,999 or between $35,000 and $44,999.
+However, setting the goal at less than $4,999 would give a more reliable chance to the play campaign at being successful due to the higher amount of data
+collected in that range versus the $35,000 to $44,999 range.
+#### ![Outcomes Based on Goals](./Outcomes_Based_on_Goals_Table.png)
 
 ### What are some limitations of this dataset?
 The dataset doesn't include other variables that could attribute to these results,
