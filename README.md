@@ -35,9 +35,6 @@ The percent of failed play campaigns increases as the amount of the goal increas
 until it gets to 80% at the $25,000 to $29,999 range and then decreases. 
 The percent of failed play campaigns increases to above 80% when it gets to be at $45,000 or more.
 
-### Challenges and Difficulties Encountered
-The COUNTIFS() function.
-
 ## Results
 
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
